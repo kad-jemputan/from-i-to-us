@@ -1,0 +1,116 @@
+body, html {
+  scroll-behavior: smooth;
+  font-family: "Bilbo", cursive;
+  height: 100%;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/static/img/banner-card.jpg");
+  font-family: "Great Vibes", cursive;
+  min-height: 100%;
+  text-shadow: 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff;
+}
+.footer {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/static/img/banner-card.jpg");
+  font-family: "Bilbo", cursive;
+  min-height: 100%;
+  text-shadow: 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff;
+}
+
+.floral {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/static/img/floral.jpg");
+}
+
+.arab{
+  font-family: "Noto Naskh Arabic", cursive;
+  font-size: 3em;
+}
+
+.section-title{
+  font-family: "Great Vibes", cursive;
+  font-size: 3em;
+  padding: .5em;
+}
+
+.salam{
+  font-family: "Noto Naskh Arabic", cursive;
+}
+
+.isi{
+  font-size: 1.5em;
+}
+.date{
+  font-family: "Great Vibes", cursive;
+  font-size: 2em;
+  text-shadow: 0 0 .25em #fff, 0 0 .25em #fff, 0 0 .25em #fff, 0 0 .25em #fff, 0 0 .25em #fff, 0 0 .25em #fff, 0 0 .25em #fff;
+}
+
+.name{
+  font-weight: bold;
+}
+
+#jam{
+  font-size: 5em;
+  line-height: 80%;
+}
+
+.menu {
+  display: none;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.arrow {
+  border: solid lightindigo;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+   -webkit-animation: flickerAnimation 1.5s infinite;
+   -moz-animation: flickerAnimation 1.5s infinite;
+   -o-animation: flickerAnimation 1.5s infinite;
+    animation: flickerAnimation 1.5s infinite;
+}
+.scrollFade {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.scrollFade--hidden {
+	opacity: 0.25;
+	pointer-events: none;
+}
+
+.scrollFade--visible {
+	opacity: 1;
+	pointer-events: all;
+}
+
+.scrollFade--animate {
+	transition: opacity 0.75s ease-in-out;
+}
