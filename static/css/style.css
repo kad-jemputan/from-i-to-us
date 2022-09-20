@@ -7,7 +7,7 @@ body, html {
 .banner {
   background-position: center;
   background-size: cover;
-  background-image: url("../static/img/banner-card.jpg");
+  background-image: url("../static/img/banner-card.png");
   font-family: "Great Vibes", cursive;
   min-height: 100%;
   text-shadow: 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff, 0 0 .5em #fff;
